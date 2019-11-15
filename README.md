@@ -3,7 +3,7 @@
 # Firstly provided by Yoshikazu NAKAJIMA, Tokyo Medical and Dental University (TMDU), Japan, on November 15th, 2019.
 #
 
-This software series works for "Autonomously networking AI agents."
+This software series works for "autonomously networking AI agents."
 
 These software agents were written in Python.
 They were tested that each of them ran on a Raspberri Pi computer and networked to another with WiFi connection.
