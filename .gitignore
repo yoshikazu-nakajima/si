@@ -1,104 +1,66 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+#
+# [name]  gitignore.sample
+# [usage] Copy this file into each directory as .gitignore
+# [command] cp gitignore.sample .gitignore
+#
+# Written by Yoshikazu NAKAJIMA
+#
 
-# C extensions
+#-- Cache files
+
+__pycache__/
+
+#-- Directories
+
+/fluoronavi_exp/result/
+
+#-- Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
 *.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+#-- Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.lzh
+*.jar
+*.rar
+*.tar
+*.zip
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+#-- Logs and databases
 *.log
-local_settings.py
-db.sqlite3
+*.sql
+*.sqlite
 
-# Flask stuff:
-instance/
-.webassets-cache
+#-- OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-*
+.Trashes
+ehthumbs.dv
+Thumbs.db
 
-# Scrapy stuff:
-.scrapy
+#-- backup files
+.*.swp
 
-# Sphinx documentation
-docs/_build/
+#-- ignored files/directories
+__backup*/
+__backup.*/
+.vs/
+.vscode/
+data/
+testdata/
+resp/phasecue/FEL-GUI/
+resp/phasecue/h5/
 
-# PyBuilder
-target/
+#-- add files
 
-# Jupyter Notebook
-.ipynb_checkpoints
+!/.gitignore
 
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
